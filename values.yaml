@@ -1,0 +1,8 @@
+longhorn:
+  defaultSettings:
+    backupTarget: s3://k8s-backup@de-fra-1/
+    backupTargetCredentialSecret: exoscale-sos-secret
+    guaranteedEngineManagerCPU: 8
+    guaranteedReplicaManagerCPU: 8
+
+  enablePSP: false
